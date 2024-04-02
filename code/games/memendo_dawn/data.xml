@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<game>
+	<title>Memento Dawn</title>
+	<release-date>In 2024</release-date>
+	<website>http://www.mementodawn.com/</website>
+	<press-can-request-copy>FALSE</press-can-request-copy>
+
+	<platforms>
+		<platform>
+			<name>Steam</name>
+			<link>https://store.steampowered.com/app/2319360/Memento_Dawn/</link>
+		</platform>
+	</platforms>
+	
+
+	<description>
+	Memento Dawn is a puzzle game that follows a lost child on a journey to search for her memories and helps her through the darkness by controlling light and shadow.
+	</description>
+	
+	<history>
+	Memento Dawn was started in 2017, based on an idea from Dat Do (DD), a game developer and puzzle game lover. It's inspired by Monument Valley and Lara Croft Go, which were famous and popular at that time. In the beginning, the game was designed as a very small game. Unfortunately, making games isn't easy and there are many challenges in development. The gameplay of light and shadow needs to be presented in an excellent 3D graphic. The idea is new, and the developers only worked on the project in their free time. It looks like the game has never been finished. In 2023, after leaving the company, DD tried to finish his game again, so he came up with his friends to get full-time focus on completing the game Memento Dawn. It pains a lot as a new indie game team, but thanks for supporting from many friends. The game is developing very well; this time, we strongly believe we can finish and release it in 2024.
+	</history>
+
+	<features>
+		<feature>Over 60+ beautiful handcrafted levels.</feature>
+		<feature>Unique gameplay with light and shadow.</feature>
+		<feature>Simple but deep mechanics.</feature>
+		<feature>An adorable story told by charming illustrations.</feature>
+		<feature>Relaxing soundtracks with wholesome vibes.</feature>
+		<feature>A wholesome, cute, family game for everyone.</feature>
+	</features>
+	
+	<trailers>
+		<trailer>
+			<name>Announce Trailer</name>
+			<youtube>7voZPJdW9z4</youtube>
+		</trailer>
+	</trailers>		
+	
+	
+	<credits>
+		<credit>
+			<person>Dat Do</person>
+			<website>https://www.linkedin.com/in/dat-van-do-phuoc-a2186557/</website>
+			<role>Game Director, Developer</role>
+		</credit>
+
+		<credit>
+			<person>Dang Hong Anh</person>
+			<website>https://tmew.carrd.co/</website>
+			<role>Character Design, 2D Art</role>			
+		</credit>
+
+		<credit>
+			<person>Tri Phan</person>
+			<role>Animator, 3D Art</role>			
+		</credit>
+
+		<credit>
+			<person>Quentin Charbit</person>
+			<website>https://www.instagram.com/quentincharbit/</website>
+			<role>Composer</role>			
+		</credit>
+
+		
+	</credits>
+</game>
