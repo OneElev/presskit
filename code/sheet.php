@@ -366,7 +366,7 @@ echo '					<div class="uk-grid">
 							<h2 id="factsheet">'. tl('Factsheet'). '</h2>
 							<p>
 								<strong>'. tl('Developer:'). '</strong><br/>
-								<a href="../presskit/'. $languageQuery .'">'. COMPANY_TITLE .'</a><br/>
+								<a href="../'. $languageQuery .'">'. COMPANY_TITLE .'</a><br/>
 								'. tl('Based in %s', COMPANY_BASED) .'
 							</p>
 							<p>
@@ -747,7 +747,7 @@ echo '					<hr>
 
 					<p>
 						<strong>'. tl('More information'). '</strong><br/>
-						'. tlHtml('More information on %s, our logo & relevant media are available <a href="../presskit/">here</a>.', COMPANY_TITLE, '../'. $languageQuery). '
+						'. tlHtml('More information on %s, our logo & relevant media are available <a href="%s/">here</a>.', COMPANY_TITLE, '../'. $languageQuery). '
 					</p>
 					
 					<hr>
