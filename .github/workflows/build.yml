@@ -32,5 +32,4 @@ jobs:
       with:
         branch: gh-pages
         folder: output
-	lfs: true
         token:  ${{ secrets.ACCESS_TOKEN }}
