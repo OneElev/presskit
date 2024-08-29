@@ -1,4 +1,4 @@
-name: Deploy Memento Dawn presskit site
+name: Deploy static site
 
 on:
   push:
@@ -32,4 +32,5 @@ jobs:
       with:
         branch: gh-pages
         folder: output
+	lfs: true
         token:  ${{ secrets.ACCESS_TOKEN }}
