@@ -29,7 +29,7 @@ jobs:
           wget -P output -nH --mirror --adjust-extension \
             --page-requisites --no-parent \
             --tries=3 --timeout=30 --waitretry=2 \
-            --no-verbose --ignore-robots=on \
+            --no-verbose \
             http://127.0.0.1:8080
 
       - name: Stop containers
