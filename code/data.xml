@@ -15,7 +15,10 @@
 			<name>Twitter</name>
 			<link>http://twitter.com/depagames</link>
 		</social>
-
+		<social>
+			<name>BlueSky</name>
+			<link>https://bsky.app/profile/depagames.bsky.social</link>
+		</social>
 		<social>
 			<name>Youtube</name>
 			<link>https://www.youtube.com/@De3Games</link>
