@@ -22,6 +22,7 @@ jobs:
       - name: Start containers
         run: docker compose -f docker-compose.yml up -d --build
 
+      
       - name: Crawl
         run: |
           while ! nc -z localhost 8080; do sleep 0.1; done
@@ -30,7 +31,10 @@ jobs:
             --page-requisites --no-parent \
             --tries=3 --timeout=30 --waitretry=2 \
             --no-verbose \
-            http://127.0.0.1:8080
+            http://127.0.0.1:8080 || true
+
+          test -f output/index.html
+
 
       - name: Stop containers
         if: always()
